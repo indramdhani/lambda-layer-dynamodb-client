@@ -1,0 +1,26 @@
+{
+  "name": "lambda-layer-dynamodb-client",
+  "version": "1.0.0",
+  "description": "lambda-layer-dynamodb-client",
+  "main": "index.js",
+  "scripts": {
+    "sam:deploy:live": "sam build --config-env prod && sam deploy --config-env prod",
+    "sam:deploy:dev": "sam build --config-env dev && sam deploy --config-env dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indramdhani/lambda-layer-dynamodb-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indramdhani/lambda-layer-dynamodb-client/issues"
+  },
+  "homepage": "https://github.com/indramdhani/lambda-layer-dynamodb-client#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.58.0"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4"
+  }
+}
