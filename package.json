@@ -4,6 +4,7 @@
   "description": "lambda-layer-dynamodb-client",
   "main": "index.js",
   "scripts": {
+    "commit": "npx git-cz",
     "sam:deploy:live": "sam build --config-env prod && sam deploy --config-env prod",
     "sam:deploy:dev": "sam build --config-env dev && sam deploy --config-env dev"
   },
@@ -21,6 +22,12 @@
     "@aws-sdk/client-dynamodb": "^3.58.0"
   },
   "devDependencies": {
-    "commitizen": "^4.2.4"
+    "commitizen": "^4.2.4",
+    "git-cz": "^4.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
   }
 }
