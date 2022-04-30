@@ -18,9 +18,6 @@
     "url": "https://github.com/indramdhani/lambda-layer-dynamodb-client/issues"
   },
   "homepage": "https://github.com/indramdhani/lambda-layer-dynamodb-client#readme",
-  "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.58.0"
-  },
   "devDependencies": {
     "commitizen": "^4.2.4",
     "git-cz": "^4.8.0"
